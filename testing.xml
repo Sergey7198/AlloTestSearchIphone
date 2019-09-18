@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SeleniumTest" verbose="1">
+    <test name="AlloTest">
+        <classes>
+            <class name="com.allo.qa.tests.TestBase" />
+            <class name="com.allo.qa.tests.AlloSearchTest" />
+        </classes>
+    </test>
+</suite>
